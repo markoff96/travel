@@ -99,6 +99,7 @@ li {
   display: flex;
   justify-content: space-around;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 .destination img {
   width: 244px;
@@ -118,8 +119,8 @@ li {
 }
 
 #footer_id {
-  height: 100px;
-  background-color: black;
+  height: 110px;
+  background: linear-gradient(90deg, rgb(187, 190, 190), #000000);
 }
 footer img {
   height: 50px;
@@ -127,4 +128,7 @@ footer img {
 footer ul {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 0px;
 }
