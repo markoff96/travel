@@ -1,0 +1,130 @@
+#body_tag {
+  font-family: "Qicksand", sans-serif;
+  margin: 0;
+}
+#page-logo a {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 60px;
+}
+header a {
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px white;
+}
+header a:hover {
+  color: rgb(77, 77, 77);
+  background-color: rgb(255, 251, 0);
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+li {
+  margin: 20px;
+}
+#hero_content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 300px;
+}
+#hero_content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Rateway" sans-serif;
+  margin: 0;
+}
+#hero_content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 42px;
+}
+#hero_content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(223, 16, 16);
+}
+#hero_content a:hover {
+  background-color: rgb(255, 200, 0);
+}
+
+#highlights {
+  background: linear-gradient(90deg, rgb(169, 236, 232), #00dfdf);
+}
+#highlights h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: rgb(59, 65, 64);
+  margin: 0;
+  padding: 24px;
+}
+#destinations {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.destination img {
+  width: 244px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px black;
+  object-fit: cover;
+}
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin-bottom: 20px;
+}
+.destination strong {
+  color: rgb(0, 160, 117);
+}
+
+#footer_id {
+  height: 100px;
+  background-color: black;
+}
+footer img {
+  height: 50px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
